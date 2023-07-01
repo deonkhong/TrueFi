@@ -1,0 +1,20 @@
+# Build output directories
+target/
+
+# Ink! contract build artifacts
+*.contract
+
+# Cargo build artifacts
+Cargo.lock
+target/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Editor backup files
+*~
+
+# Operating System-specific files
+.DS_Store
+Thumbs.db
