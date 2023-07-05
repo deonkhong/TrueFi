@@ -2,13 +2,21 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { TestComponent } from './test/test.component';
+import { RouterModule } from '@angular/router';
+
+import {ButtonModule} from 'primeng/button';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule,
+    ButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
