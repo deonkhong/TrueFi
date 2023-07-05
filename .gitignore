@@ -23,6 +23,8 @@ Thumbs.db
 server/node_modules/
 server/dist/
 
+client/node_modules/
+
 #Env
 .env
 ```
