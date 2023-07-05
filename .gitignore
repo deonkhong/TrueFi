@@ -18,3 +18,11 @@ target/
 # Operating System-specific files
 .DS_Store
 Thumbs.db
+
+# Node
+server/node_modules/
+server/dist/
+
+#Env
+.env
+```
