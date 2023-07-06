@@ -15,7 +15,9 @@ import {ButtonModule} from 'primeng/button';
   ],
   imports: [
     BrowserModule,
-    RouterModule,
+    RouterModule.forRoot([
+      {path: 'test', component: TestComponent},
+    ]),
     ButtonModule,
   ],
   providers: [],
