@@ -6,16 +6,19 @@ import { TestComponent } from './test/test.component';
 import { RouterModule } from '@angular/router';
 
 import {ButtonModule} from 'primeng/button';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    TestComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      {path: '', component: HomeComponent},
       {path: 'test', component: TestComponent},
     ]),
     ButtonModule,

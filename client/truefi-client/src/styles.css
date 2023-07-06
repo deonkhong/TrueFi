@@ -4,5 +4,15 @@
 
 body {
     font-family: var(--font-family);
-    background-image: linear-gradient(to left, #ff0000, #ff7f00);
+    background-image: linear-gradient(to top, #ff0000, #ff7f00);
+    background-size: cover;
+    background-color:#ff0000;
+
+    height: 100%;
+    /* margin: 0; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* suggest a font color */
+    color: #fff;
 }
