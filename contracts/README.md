@@ -18,7 +18,7 @@ Use version 1.69 and set it to default
  
 	rustup target add wasm32-unknown-unknown --toolchain 1.69
 
-	cargo install --force --locked cargo-contract --version 2.0.0-rc
+	cargo install --force --locked cargo-contract
  
 	cargo contract build
 
