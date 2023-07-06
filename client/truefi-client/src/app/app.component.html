@@ -1,6 +1,17 @@
 <main>
-  <header class="brand-name">
-    <a>TrueFi</a>
+  <header class="truefi">
+    <div [routerLink]="['/']" class="logo">
+      <h1>TrueFi</h1>
+    </div>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-list-item">
+          <div [routerLink]="['/test']">
+            <h2>Test</h2>
+          </div>
+        </li>
+      </ul>
+    </nav>
   </header>
   <section class="content">
     <router-outlet></router-outlet>
