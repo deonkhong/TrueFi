@@ -1,0 +1,25 @@
+.truefi{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+
+    padding: 0 2em;
+    margin-top: -1em;
+    border-radius: 0.5em;
+}
+
+.navbar-list{
+    margin-right: 1em;
+    list-style-type: none;
+}
+
+.navbar-list-item{
+    display: inline-block;
+    padding: 1em;
+    margin-right: 1em;
+}
+
+.navbar-list-item:hover{
+    cursor: pointer;
+    color: #007bff;
+}
