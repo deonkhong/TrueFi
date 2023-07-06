@@ -66,9 +66,12 @@ To call a contract message, the $INSTANTIATED_CONTRACT_ADDRESS from calling loca
   	cargo contract call --contract $INSTANTIATED_CONTRACT_ADDRESS --message $FUNCTION_NAME --args(Optional) arg*(Optional) --suri $CALLER--dry-run -x
  
 Example scenario:
-contract   	5Deu8cPQrGw3qtdMBvJjg7jvUeJU2Dm9opnr3oWuH7jCVpYc
-alice 		5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
-bob 		5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty
+
+Contract Address  	5Deu8cPQrGw3qtdMBvJjg7jvUeJU2Dm9opnr3oWuH7jCVpYc
+
+Alice Address 		5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+
+Bob Address		5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty
 
 Example message
 
